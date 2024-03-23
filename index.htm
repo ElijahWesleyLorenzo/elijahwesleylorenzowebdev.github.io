@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz Application</title>
+</head>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+<style type="text/css">
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: rgb(54, 116, 154); font-family: calibri; padding-right: 15px;padding-left: 15px;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 65px; font-weight: 600; color: white;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 35px; font-weight: bold; margin-right: 25px;
+		}
+		button{
+			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+	</style>
+    <style>
+        body {
+          background-image: url('Trippy.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+
+<style>
+{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.wrapper{
+width:100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.image{
+width:500px;
+position: relative;
+}
+img{
+width:100%;
+display: block;
+margin:auto;
+}
+.content{
+width:100%;
+height: 100%;
+top:0;
+left:0;
+position: absolute;
+background:rgba(0,0,0,0.6);
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+opacity: 0;
+transition: 0.6s;
+}
+.content:hover{
+opacity: 1;
+}
+.content h1{
+font-size: px;
+color:#ffe100;
+margin-bottom: 15px;
+}
+.content p{
+font-size:19px;
+color:#fff;
+}
+.content > {
+transform:translateY(25px);
+transition:transform 0.6s;
+</style>
+<style>
+body {
+  background-image: url('Trippy.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+<style>
+body {
+  background-color: #fefbd8;
+}
+
+h1 {
+  background-color: #80ced6;
+}
+
+div {
+  background-color: #d5f4e6;
+}
+
+span {
+  background-color: #f18973;
+}
+</style>
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><a href="#">The Web Development quiz! HTML,CSS AND JAVASCRIPT!</a> </div>
+			</nav>
+<body>
+<h1>Q1.What does HTML stand for?<br>
+<input type="radio" name="question1" id="correct1">Hypertext Markup Language<br>
+<input type="radio" name="question1">Hyperlinks Text Markup Language<br>
+<input type="radio" name="question1">Hypertext Makeup Language<br>
+<input type="radio" name="question1">Hyperlinks Text Markup Language<br>
+
+<h1>Q2. What element is used for a line break?<br>
+<input type="radio" name="question2" >"lb" <br>
+<input type="radio" name="question2">"b" <br>
+<input type="radio" name="question2" id="correct2">"br" <br>
+<input type="radio" name="question2">"div"<br>
+
+<h1>Q3.Which HTML code is correct??<br>
+<input type="radio" name="question3" >(input text=“password) <br>
+<input type="radio" name="question3"id="correct3">(input type=“radio”)<br>
+<input type="radio" name="question3">(input=“checkbox”) <br>
+<input type="radio" name="question3">(input text=“button”)<br>
+
+<h1>Q4.Inside of what html element do we add a favicon?<br>
+<input type="radio" name="question4" >(header) <br>
+<input type="radio" name="question4"id="correct4">(head)<br>
+<input type="radio" name="question4">(title) <br>
+<input type="radio" name="question4">(body)<br>
+
+<h1>Q5.What html tag do we use to add a footer?/<br>
+<input type="radio" name="question5" > (tfoot) (/tfoot)<br>
+<input type="radio" name="question5">(ft) (/ft)<br>
+<input type="radio" name="question5">(fr) (/footer)<br>
+<input type="radio" name="question5"id="correct5">(footer) (/footer)<br>
+
+<h1>Q6.Which CSS syntax among the choices is wrong?<br>
+<input type="radio" name="question6"id="correct6">h1 {bg-color: blue; font-size: 50px;}<br>
+<input type="radio" name="question6">p {color: green; font-size: 100px;}<br>
+<input type="radio" name="question6">h2 {text-align: center; margin: 15px;}<br>
+<input type="radio" name="question6">.Diamond {margin: 3px; font-style: italic; font-family: Verdana}<br>
+
+<h1>Q7.What among the choices is not included in the three types of CSS?<br>
+<input type="radio" name="question7" >Inline <br>
+<input type="radio" name="question7"id="correct7">Interval<br>
+<input type="radio" name="question7">External<br>
+<input type="radio" name="question7">Internal<br>
+
+<h1>Q8.What is Javascript used for?<br>
+<input type="radio" name="question8" >It is used to style and layout web pages.<br>
+<input type="radio" name="question8"id="correct8">It is used to make interactive and dynamic web pages.<br>
+<input type="radio" name="question8">It is the structure of the web pages and its contents.<br>
+<input type="radio" name="question8">It does nothing and is useless.<br>
+
+<h1>Q9.Which of the following signifies an element with a specific id attribute?<br>
+<input type="radio" name="question9" >tilde (~)<br>
+<input type="radio" name="question9"id="correct9">hashtag (#) <br>
+<input type="radio" name="question9">dot (.)<br>
+
+<h1>Q10.What is the major difference of IDs and classes?<br>
+<input type="radio" name="question10" >I don't know, bro.<br>
+<input type="radio" name="question10"id="correct10">IDs can only be applied once per page, while classes can be used multiple times on a page<br>
+<input type="radio" name="question10">Neither<br>
+<input type="radio" name="question10">IDs and classes can both be used multiple times on a page.
+None of the above
+<br>
+
+<h1>Q11.What is Javascript used for?<br>
+<input type="radio" name="question11" id="correct11">It is used to make interactive and dynamic web pages<br>
+<input type="radio" name="question11">It does nothing and is useless.<br>
+<input type="radio" name="question11">It is the structure of the web pages and its contents.<br>
+<input type="radio" name="question11">It is used to style and layout web pages.
+<br>
+
+<h1>Q12.Is Javascript used for frontend or backend?<br>
+<input type="radio" name="question12" >I don't know, bro.<br>
+<input type="radio" name="question12"id="correct12">It is used for frontend like HTML, and CSS.<br>
+<input type="radio" name="question12">Neither<br>
+<input type="radio" name="question12">It is used for backend like Java, Ruby, Python, and etc.
+<br>
+
+<h1>Q13.Is Javascript only for websites?<br>
+<input type="radio" name="question13" >Yes, Javascript is only used for websites and cannot be used for other things.<br>
+<input type="radio" name="question13">I don’t know as well.<br>
+<input type="radio" name="question13">Neither<br>
+<input type="radio" name="question13" id="correct13">No, Javascript is also used to build browser-based games, and more.
+<br>
+
+<h1>Q14. It is a variable that is outside a function and can be used anywhere in the program.<br>
+<input type="radio" name="question14" >Local scope variable<br>
+<input type="radio" name="question14"id="correct14">Global scope variable <br>
+<input type="radio" name="question14">National scope variable<br>
+<input type="radio" name="question14">World scope variable
+<br>
+
+<h1>Q15. It is a keyword that defines that a variable cannot be reassigned.<br>
+<input type="radio" name="question15" >Var<br>
+<input type="radio" name="question15">Con<br>
+<input type="radio" name="question15" id="correct15">const<br>
+<input type="radio" name="question15">let
+<br>
+
+
+<input type="submit" name="submit" value="Submit Quiz" onclick="result()">
+
+  
+  <script>
+    function result()
+{
+
+	var score=0;
+	if(document.getElementById('correct1').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct2').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct3').checked)
+		{	score++;
+		}
+if(document.getElementById('correct4').checked)
+		{	score++;
+		}
+if(document.getElementById('correct5').checked)
+		{	score++;
+		}
+if(document.getElementById('correct6').checked)
+		{	score++;
+		}
+if(document.getElementById('correct7').checked)
+		{	score++;
+		}
+if(document.getElementById('correct8').checked)
+		{	score++;
+		}
+if(document.getElementById('correct9').checked)
+		{	score++;
+		}
+if(document.getElementById('correct10').checked)
+		{	score++;
+		}
+if(document.getElementById('correct11').checked)
+		{	score++;
+		}
+if(document.getElementById('correct12').checked)
+		{	score++;
+		}
+if(document.getElementById('correct13').checked)
+		{	score++;
+		}
+if(document.getElementById('correct14').checked)
+		{	score++;
+		}
+if(document.getElementById('correct15').checked)
+		{	score++;
+		}
+
+ alert("Your score is:"+score);
+ // to print on browser
+ // document.write("Your score is:"+score);
+}
+  </script>
+</body>
+</html>
